@@ -6,7 +6,7 @@ from movprodd14
 where mprd_estentrada=1 
  and mprd_datamvto between '2014-01-01' and '2014-12-31' 
  and mprd_status<>'C'
- and mprd_unid_codigo='002' 
+ and mprd_unid_codigo='001' 
  and mprd_dcto_codigo<>'0' 
 group by mprd_prod_codigo),
 
